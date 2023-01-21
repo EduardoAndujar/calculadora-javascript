@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <title>Calculadora by Ardo</title>
+    </head>
+    <body>
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <div class="tela" id="tela"></div>
+            <div class="botoes">
+                <table>
+                    <tr>
+                        <td><button id="tecla_reiniciar">C</button></td>
+                        <td><button id="tecla_apagar"><</button></td>
+                        <td><button id="tecla_dividir">/</button></td>
+                        <td><button id="tecla_multiplicar">X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="tecla_numero">7</button></td>
+                        <td><button class="tecla_numero">8</button></td>
+                        <td><button class="tecla_numero">9</button></td>
+                        <td><button id="tecla_diminuir">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="tecla_numero">4</button></td>
+                        <td><button class="tecla_numero">5</button></td>
+                        <td><button class="tecla_numero">6</button></td>
+                        <td><button id="tecla_somar">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="tecla_numero">1</button></td>
+                        <td><button class="tecla_numero">2</button></td>
+                        <td><button class="tecla_numero">3</button></td>
+                        <td rowspan="2"><button id="tecla_igual">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="tecla_numero">0</button></td>
+                        <td><button class="tecla_numero">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script src="./src/js/main.js"></script>
+    </body>
+</html>

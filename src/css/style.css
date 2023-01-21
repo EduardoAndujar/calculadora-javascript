@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(120deg, #d4fc79, #96e6a1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora {
+    background-color: black;
+    box-sizing: border-box;
+    height: 400px;
+    width: 300px;
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora h1 {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.calculadora .tela {
+    width: 98%;
+    height: 35px;
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 5px;
+    text-align: end;
+    color: black;
+    border: solid 2px #96e6a1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.calculadora .botoes {
+    height: 75%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora table {
+    height: 100%;
+    width: 100%;
+}
+
+.calculadora tr {
+    text-align: center;
+}
+
+.calculadora td {
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+.calculadora button {
+    width: 100%;
+    height: 100%;
+    border: solid 2px #96e6a1;
+    border-radius: 4px;
+}
+
+.calculadora button:hover {
+    cursor: pointer;
+}
+
+.calculadora button:active {
+    background: #d4fc79;
+}
